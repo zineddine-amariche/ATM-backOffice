@@ -1,0 +1,96 @@
+{
+  "registerHooks": [
+    {
+      "degree": [
+        {
+          "required": "degree requis"
+        }
+      ],
+      "specialty": [
+        {
+          "required": "specialty requis"
+        }
+      ],
+      "password": [
+        {
+          "required": "Password required",
+          "min": "Password very small, at least 6 characters."
+        }
+      ],
+      "confirmPassword": [
+        {
+          "required": "Confirm password required",
+          "min": "Password very small, at least 6 characters.",
+          "oneOf": "Passwords don't match"
+        }
+      ],
+      "email": [
+        {
+          "required": "Email required",
+          "min": "Email very small, at least 8 characters.",
+          "matches": "Email Invalid !"
+        }
+      ],
+      "fname": [
+        {
+          "required": "First name required",
+          "min": "First name very small, at least 3 characters."
+        }
+      ],
+      "lname": [
+        {
+          "required": "Last name required",
+          "min": "Last name very small, at least 3 characters."
+        }
+      ],
+      "phone": [
+        {
+          "required": "phone number required",
+          "min": "phone number very small, at least 10 characters.",
+          "matches": "phone number Invalid !"
+        }
+      ]
+    }
+  ],
+  "register":[
+    {
+      "title":"Create an account",
+      "loginMessage":"Already have an account?",
+      "signin":"Sign in",
+      "password":"password",
+      "confirmPassword":"Confirm password",
+      "email":"email",
+      "first_name":"first name",
+      "last_name":"last name",
+      "phone_number":"phone number",
+      "degree": "degree",
+      "specialty": "specialty",
+      "back": "back",
+      "next": "next",
+      "submit": "submit"
+    }
+  ],
+  "greeting": "Hello to",
+  "greeting_sous_titre": "Please loging to continue",
+  "welcome": "Welcome to my app",
+  "sidebar": [
+    {
+      "Dashboard": "Dashboard",
+      "Admins": "Admins",
+      "Pointage": "Attendance",
+      "Employes": "Employees",
+      "TypedeLot": "Lot Type",
+      "Lots": "Lots",
+      "Abonnement": "Subscription",
+      "Club": "Club"
+    }
+  ],
+  "navbar": [
+    {
+      "MyProfile": "Dashboard",
+      "logout": "Log out",
+      "title": "Admin"
+ 
+    }
+  ]
+}

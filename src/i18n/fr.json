@@ -1,0 +1,95 @@
+{
+  "registerHooks": [
+    {
+      "degree": [
+        {
+          "required": "le degré est obligatoire"
+        }
+      ],
+      "specialty": [
+        {
+          "required": "le spécialité est obligatoire"
+        }
+      ],
+      "password": [
+        {
+          "required": "le Mot de passe est obligatoire",
+          "min": "Mot de passe trés petit, au moin 6 caractéres."
+        }
+      ],
+      "confirmPassword": [
+        {
+          "required": "Confirmer le mot de passe est obligatoire",
+          "min": "Mot de passe trés petit, au moin 6 caractéres.",
+          "oneOf": "Les mots de passe ne correspondent pas"
+        }
+      ],
+      "email": [
+        {
+          "required": "l'email est obligatoire",
+          "min": "l'email est petit , il faut au moin saisir 8 caractéres.",
+          "matches": "l'email non valide !"
+        }
+      ],
+      "fname": [
+        {
+          "required": "le prénom est obligatoire",
+          "min": "le prénom est petit , il faut au moin saisir 3 caractéres."
+        }
+      ],
+      "lname": [
+        {
+          "required": "le nom est obligatoire",
+          "min": "le nom est petit , il faut au moin saisir 3 caractéres."
+        }
+      ],
+      "phone": [
+        {
+          "required": "le téléphone est obligatoire",
+          "min": "le téléphone est petit , il faut au moin saisir 10 caractéres.",
+          "matches": "le téléphone non valide !"
+        }
+      ]
+    }
+  ],
+  "register": [
+    {
+      "title": "Créer un compte",
+      "loginMessage": "Vous avez déjà un compte?",
+      "signin": "se connecter",
+      "password": "mot de passe",
+      "confirmPassword": "Confirmer mot de passe",
+      "email": "email",
+      "first_name": "prénom",
+      "last_name": "nom",
+      "phone_number": "N° téléphone ",
+      "degree": "degré",
+      "specialty": "spécialité",
+      "back": "Précédent",
+      "next": "suivant",
+      "submit": "Envoyer"
+    }
+  ],
+  "greeting": "Bienvenue sur",
+  "greeting_sous_titre": "Merci de vous connecter pour continuer",
+  "welcome": "Bienvenue sur application",
+  "sidebar": [
+    {
+      "Dashboard": "Tableau de bord",
+      "Admins": "Administrateurs",
+      "Pointage": "Pointage",
+      "Employes": "Employés",
+      "TypedeLot": "Type de Lot",
+      "Lots": "Lots",
+      "Abonnement": "Abonnement",
+      "Club": "Club"
+    }
+  ],
+  "navbar": [
+    {
+      "MyProfile": "Tableau de bord",
+      "logout": "Se déconnecter",
+      "title": "Administrateur"
+    }
+  ]
+}
